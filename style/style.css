@@ -96,8 +96,6 @@ nav{
 
 /* jumbotron */
 .jumbotron .header{
-    /* background-color: red; */
-    /* debug: */
     margin-bottom: 1em;
     font-size: 3.2em;
     font-weight: bolder;
@@ -109,13 +107,9 @@ nav{
     padding-top: 2em; 
 }
 .jumbotron-content{
-    /* background-color: green; */
-    /* debug: */
     width: 100%;
 }
 .jumbotron-elem{
-    /* background-color: blue; */
-    /* debug: */
     width: 30%;
     display: inline-block;
 }
@@ -132,5 +126,48 @@ nav{
 }
 .jumbotron img{
     width: 65%;
+    max-width: 350px;
     height: auto;
+}
+
+/* SUB PLAN  */
+.sub-plan{
+    border: 1px solid red;
+    margin-bottom: 50px;
+    /* debug: */
+    margin-top: 8em;
+}
+.sub-plan .container{
+    /* background-color: aqua; */
+    /* debug: */
+}
+.sub-plan h1{
+    border: 1px dashed black;
+    background-color: pink;
+    /* debug: */
+}
+.sub-plan .sub-ren{
+    border: 1px dashed black;
+    background-color: yellow;
+    height: 2em;
+    /* debug: */
+    width: 100%;
+    margin-top: 2em;
+}
+.plan-card-section{
+    background-color: green;
+    border: 1px dashed blue;
+    height: 50em;
+    /* debug: */
+    margin-top: 2em;
+}
+.plan-card{
+    background-color: red;
+    height: 100%;
+    /* debug: */
+    display: inline-block;
+    width: 30%
+}
+.plan-card:nth-child(2){
+    margin: 0 calc(5% - 3px);
 }
