@@ -171,3 +171,35 @@ nav{
 .plan-card:nth-child(2){
     margin: 0 calc(5% - 3px);
 }
+
+    /* plan card  */
+.plan-head{
+    background-color: grey;
+    height: 2em;
+    /* debug: */
+}
+.plan-price{
+    background-color: blue;
+    height: 4em;
+    /* debug: */
+    margin-top: 2em;
+}
+.plan-summary{
+    background-color: aqua;
+    height: 6em;
+    /* debug: */
+    margin-top: 2em;
+}
+.play-try{
+    background-color: yellow;
+    height: 4em;
+    /* debug: */
+    margin-top: 1em;
+}
+
+.plan-highlights{
+    background-color: pink;
+    height: 12em;
+    /* debug: */
+    margin-top: 2em;
+}   
