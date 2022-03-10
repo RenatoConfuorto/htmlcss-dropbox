@@ -37,6 +37,9 @@ html{
     color: white;
     font-size: 0.8em;
     padding: 0.5em 1em;
+    /* margin-top: 1.5em; */
+    /* margin: 0 1.5em 0 1em; */
+    margin: 1.5em 0 1em 0;
 }
 .blue-btn{
     background-color: #0061ff;
@@ -110,14 +113,24 @@ nav{
     /* debug: */
     width: 100%;
 }
-.jumbotron .jumbotron-elem{
+.jumbotron-elem{
     /* background-color: blue; */
     /* debug: */
     width: 30%;
     display: inline-block;
 }
+.jumbotron-elem a{
+    display: inline-block;
+}
+.jumbotron-text:first-child{
+    font-size: 0.7em;
+}
+.jumbotron .fa-arrow-down{
+    font-size: 1.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 .jumbotron img{
     width: 65%;
     height: auto;
-
 }
