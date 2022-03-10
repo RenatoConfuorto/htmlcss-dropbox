@@ -16,10 +16,17 @@ html{
 .float-left{
     float: left;
 }
-.clearfix::before{
+.float-right{
+    float: right;
+}
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* HEADER  */
@@ -51,3 +58,29 @@ nav{
     width: 10%;
 }
 
+/* MAIN  */
+
+/* jumbotron */
+.jumbotron h1{
+    background-color: red;
+}
+/* debug: */
+
+.jumbotron{
+    background-color: #b4d0e7; 
+}
+.jumbotron-content{
+    background-color: green;
+    /* debug: */
+    width: 100%;
+}
+.jumbotron .jumbotron-elem{
+    background-color: blue;
+    /* debug: */
+    width: 30%;
+    display: inline-block;
+}
+.jumbotron img{
+    width: 70%;
+    height: auto;
+}
