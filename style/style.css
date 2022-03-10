@@ -1,0 +1,53 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+/* COMMON */
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.float-left{
+    float: left;
+}
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER  */
+header{
+    background-color:aqua;
+    /* debug: */
+    height: 5em;
+    width: 100%; 
+}
+.logo{
+    background-color: yellow;
+    height: 100%;
+    /* debug: */
+    float: left;
+    width: 15%;
+}
+nav{
+    background-color: green;
+    height: 100%;
+    /* debug: */
+    float: left;
+    width: 75%;
+}
+.nav-btn{
+    height: 100%;
+    background-color: blue;
+    /* debug: */
+    float: left;
+    width: 10%;
+}
+
