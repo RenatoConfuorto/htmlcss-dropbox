@@ -10,8 +10,9 @@ img{
 
 /* COMMON */
 html{
-    font-size: 62.5%;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
     /* float  */
 .float-left{
@@ -27,10 +28,15 @@ html{
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
-
+.center{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
     /* buttons  */
 .btn{
     text-decoration: none;
@@ -47,7 +53,11 @@ html{
 /* HEADER  */
 header{
     height: 40px;
-    width: 100%; 
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
 }
 /* logo  */
 .logo{
@@ -72,7 +82,7 @@ nav{
     display: inline-block;
 }
 .nav-list a{
-    line-height: 40px;
+    line-height: 38px;
     font-size: 0.8em;
     padding: 0 1em;
     display: inline-block;
@@ -80,7 +90,7 @@ nav{
     /* color: white; */
 }
 .nav-list a:hover{
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid #0061ff;
 }
 /* send btn  */
 .nav-btn{
@@ -95,6 +105,11 @@ nav{
 /* MAIN  */
 
 /* jumbotron */
+.jumbotron-container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 .jumbotron .header{
     margin-bottom: 1em;
     font-size: 3.2em;
@@ -108,12 +123,16 @@ nav{
 }
 .jumbotron-content{
     width: 100%;
+    position: relative;
+    top: 3em;
+    left: 3em;
 }
-.jumbotron-elem{
-    width: 30%;
+.jumbotron-col{
+    width: 45%;
     display: inline-block;
+    vertical-align: top;
 }
-.jumbotron-elem a{
+.jumbotron-col a{
     display: inline-block;
 }
 .jumbotron-text:first-child{
@@ -122,12 +141,11 @@ nav{
 .jumbotron .fa-arrow-down{
     font-size: 1.8em;
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 1.8em;
+    color: black;
 }
-.jumbotron img{
-    width: 65%;
-    max-width: 350px;
-    height: auto;
+.jumboron-scroll{
+    color: inherit;
 }
 
 /* SUB PLAN  */
@@ -141,10 +159,11 @@ nav{
     /* background-color: aqua; */
     /* debug: */
 }
-.sub-plan h1{
+.sub-plan h2{
     border: 1px dashed black;
     background-color: pink;
     /* debug: */
+    margin-top: 50px;
 }
 .sub-plan .sub-ren{
     border: 1px dashed black;
@@ -155,35 +174,55 @@ nav{
     margin-top: 2em;
 }
 .plan-card-section{
-    background-color: green;
+    /* background-color: green; */
     border: 1px dashed blue;
     height: 50em;
     /* debug: */
     margin-top: 2em;
 }
 .plan-card{
-    background-color: red;
+    /* background-color: red; */
     height: 100%;
     /* debug: */
+    width: 30%;
+    vertical-align: top;
     display: inline-block;
-    width: 30%
+    border: 1px solid lightgray;
 }
 .plan-card:nth-child(2){
     margin: 0 calc(5% - 3px);
 }
 
     /* plan card  */
+        /* head */
+
 .plan-head{
-    background-color: grey;
-    height: 2em;
+    /* background-color: grey; */
+    /* height: 2em; */
     /* debug: */
+    display: inline-block;
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 0.5em 0;
 }
+.plan-head h4, 
+.plan-head i{
+    font-weight: 500;
+    display: inline-block;
+    font-size: 1em;
+
+}
+        /* price  */
+
 .plan-price{
     background-color: blue;
     height: 4em;
     /* debug: */
     margin-top: 2em;
 }
+
 .plan-summary{
     background-color: aqua;
     height: 6em;

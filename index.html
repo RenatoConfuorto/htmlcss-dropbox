@@ -50,26 +50,28 @@
     <main>
         <!-- jumbotron -->
         <section class="jumbotron">
-            <div class="container">
+            <div class="jumbotron-container">
                 <h1 class="header">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="jumbotron-content">
                     <!-- elementi flottanti -->
-                    <div class="jumbotron-elem">
+                    <div class="jumbotron-col">
                         <!-- testo, botoone e freccia giù -->
                         <p class="jumbotron-text">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso del lavoro esistente.</p>
                         <a href="#" class="btn blue-btn">Inizia la tua prova gratuita</a>
                         <p class="jumbotron-text">Annulla in qualsiasi momento</p>
-                        <i class="fas fa-arrow-down"></i>
+                        <a href="#plans" class="jumbotron-scroll"><i class="fas fa-arrow-down"></i></a>
                     </div>
-                    <img src="img/jumbo.png" alt="Schermata Dropbox" class="float-right">
+                    <div class="jumbotron-col">
+                        <img src="img/jumbo.png" alt="Schermata Dropbox">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Piano Dropbox  -->
-        <section class="sub-plan">
+        <section class="sub-plan" id="plans">
             <div class="container">
-                <h1>Trova il piano Dropbox Business che fa per te</h1>
+                <h2>Trova il piano Dropbox Business che fa per te</h1>
 
                 <div class="sub-ren">
                     <!-- checkbox rinnovo -->
@@ -80,9 +82,14 @@
                     <div class="plan-card">
                         <div class="plan-head">
                             <!-- titolo del piano  -->
+                            <i class="far fa-user"></i>
+                            <h4>Singolo</h4>
                         </div>
-                        <div class="plan-price">
+                        <div class="plan-price container">
                             <!-- prezzo e nome del piano  -->
+                            <h3>Professional</h3>
+                            <h4>19,99&euro;</h4>
+                            <p>/mese</p>
                         </div>
                         <div class="plan-summary">
                             <!-- pillole del piano  -->
