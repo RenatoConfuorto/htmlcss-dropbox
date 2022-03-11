@@ -311,3 +311,53 @@ nav{
     font-size: 0.6em;
     margin-top: 2em;
 }
+/* Business features */
+.features{
+    /* background-color: green; */
+    /* height: 30em; */
+    margin-bottom: 50px;
+    /* debug: */
+    margin-top: 3em;
+}
+.features h2{
+    /* background-color: blue; */
+    /* margin-top: 50px; */
+    /* debug: */
+    font-size: 1.2em;
+}
+/* features card  */
+.row{
+    /* height: 10em; */
+    /* background-color: orange; */
+    /* debug: */
+    margin-top: 2em;
+}
+.f-card{
+    /* background-color: pink;
+    border: 1px solid black; */
+    /* height: 100%; */
+    /* debug: */
+    width: calc(100% / 3);
+    /* padding-right: 2em; */
+}
+.row > .f-card:first-child{
+    padding-right: 2em;
+}
+.row > .f-card:nth-child(2){
+    padding: 0 1em;
+}
+.row > .f-card:last-child{
+    padding-left: 2em;
+}
+.f-card img{
+    width: 100%;
+    height: auto;
+}
+.f-card h3{
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+.f-card p{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
