@@ -13,7 +13,12 @@
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
+    <!-- <i class="far fa-user"></i>
+                    <i class="far fa-building"></i>
+                    <i class="far fa-folder"></i>
+                    <i class="fas fa-pencil-alt"></i>
+                    <i class="fas fa-check"></i>
+                -->
 
     <title>Dropbox Business</title>
     <link rel="stylesheet" href="style/style.css">
@@ -75,17 +80,23 @@
 
                 <div class="sub-ren">
                     <!-- checkbox rinnovo -->
+                    <input type="radio" name="Monthly" id="month">
+                    <label for="month">Fatturazione mensile</label>
+                    <input type="radio" name="Yearly" id="year">
+                    <label for="year">Fatturazione annuale</label>
                 </div>
 
-                <div class="plan-card-section">
+                <div class="plan-card-section clearfix">
                     <!-- piani di abbonamento -->
-                    <div class="plan-card">
+
+                    <!-- singola card  -->
+                    <div class="plan-card float-left">
                         <div class="plan-head">
                             <!-- titolo del piano  -->
                             <i class="far fa-user"></i>
                             <h4>Singolo</h4>
                         </div>
-                        <div class="plan-price container">
+                        <div class="plan-price">
                             <!-- prezzo e nome del piano  -->
                             <h3>Professional</h3>
                             <h4>19,99&euro;</h4>
@@ -93,26 +104,130 @@
                         </div>
                         <div class="plan-summary">
                             <!-- pillole del piano  -->
+                            <ul class="plan-list">
+                                <li>
+                                    <p><i class="far fa-user"></i> 1 utente</p>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                </li>
+                                <li>
+                                    <!-- FIXME:
+                                        la matita non funziona
+                                    -->
+                                    <i class="far fa-pencil"></i></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="play-try">
+                        <div class="plan-try">
                             <!-- bottone prova -->
+                            <a href="" class="btn blue-btn">Prova gratis per 30 giorni</a>
+                            <div><span>oppure</span> <a href="#">acquista ora</a></div>
                         </div>
                         <div class="plan-highlights">
                             <!-- punti salienti del piano  -->
+                            <ul class="plan-list">
+                                <li><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- <i class="far fa-user"></i>
-                    <i class="far fa-building"></i>
-                    <i class="far fa-folder"></i>
-                    <i class="fas fa-pencil-alt"></i>
-                    <i class="fas fa-check"></i>
-                -->
-                    <div class="plan-card">
-
+                    
+                    <!-- singola card  -->
+                    <div class="plan-card float-left">
+                        <div class="plan-head">
+                            <!-- titolo del piano  -->
+                            <i class="far fa-user"></i>
+                            <h4>Singolo</h4>
+                        </div>
+                        <div class="plan-price">
+                            <!-- prezzo e nome del piano  -->
+                            <h3>Professional</h3>
+                            <h4>19,99&euro;</h4>
+                            <p>/mese</p>
+                        </div>
+                        <div class="plan-summary">
+                            <!-- pillole del piano  -->
+                            <ul class="plan-list">
+                                <li>
+                                    <p><i class="far fa-user"></i> 1 utente</p>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                </li>
+                                <li>
+                                    <!-- FIXME:
+                                        la matita non funziona
+                                    -->
+                                    <i class="far fa-pencil"></i></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="plan-try">
+                            <!-- bottone prova -->
+                            <a href="" class="btn blue-btn">Prova gratis per 30 giorni</a>
+                            <div><span>oppure</span> <a href="#">acquista ora</a></div>
+                        </div>
+                        <div class="plan-highlights">
+                            <!-- punti salienti del piano  -->
+                            <ul class="plan-list">
+                                <li><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
                     </div>
 
-                    <div class="plan-card">
-
+                    <!-- singola card  -->
+                    <div class="plan-card float-right">
+                        <div class="plan-head">
+                            <!-- titolo del piano  -->
+                            <i class="far fa-user"></i>
+                            <h4>Singolo</h4>
+                        </div>
+                        <div class="plan-price">
+                            <!-- prezzo e nome del piano  -->
+                            <h3>Professional</h3>
+                            <h4>19,99&euro;</h4>
+                            <p>/mese</p>
+                        </div>
+                        <div class="plan-summary">
+                            <!-- pillole del piano  -->
+                            <ul class="plan-list">
+                                <li>
+                                    <p><i class="far fa-user"></i> 1 utente</p>
+                                </li>
+                                <li>
+                                    <p><i class="far fa-folder"></i> 3TB di spazio di archiviazione sicuro</p>
+                                </li>
+                                <li>
+                                    <!-- FIXME:
+                                        la matita non funziona
+                                    -->
+                                    <i class="far fa-pencil"></i></i> Funzioni di produttività premium e condivisione file semplice e sicura</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="plan-try">
+                            <!-- bottone prova -->
+                            <a href="" class="btn blue-btn">Prova gratis per 30 giorni</a>
+                            <div><span>oppure</span> <a href="#">acquista ora</a></div>
+                        </div>
+                        <div class="plan-highlights">
+                            <!-- punti salienti del piano  -->
+                            <ul class="plan-list">
+                                <li><i class="fas fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                                <li><i class="fas fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fas fa-check"></i> Pulizia remota dell'account</li>
+                                <li><i class="fas fa-check"></i> Filigrana documento</li>
+                                <li><i class="fas fa-check"></i> Assistenza prioritaria via email e chat</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

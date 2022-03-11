@@ -28,7 +28,8 @@ html{
 }
 
 .container{
-    width: 60%;
+    width: 70%;
+    max-width: 800px;
     margin: 0 auto;
 }
 .center{
@@ -43,8 +44,7 @@ html{
     color: white;
     font-size: 0.8em;
     padding: 0.5em 1em;
-    /* margin-top: 1.5em; */
-    /* margin: 0 1.5em 0 1em; */
+    display: inline-block;
     margin: 1.5em 0 1em 0;
 }
 .blue-btn{
@@ -85,7 +85,6 @@ nav{
     line-height: 38px;
     font-size: 0.8em;
     padding: 0 1em;
-    display: inline-block;
     text-decoration: none;
     /* color: white; */
 }
@@ -150,7 +149,7 @@ nav{
 
 /* SUB PLAN  */
 .sub-plan{
-    border: 1px solid red;
+    /* border: 1px solid red;*/
     margin-bottom: 50px;
     /* debug: */
     margin-top: 8em;
@@ -160,26 +159,30 @@ nav{
     /* debug: */
 }
 .sub-plan h2{
-    border: 1px dashed black;
-    background-color: pink;
+    /* border: 1px dashed black;
+    background-color: pink; */
     /* debug: */
     margin-top: 50px;
 }
+/* ren section  */
 .sub-plan .sub-ren{
-    border: 1px dashed black;
+    /* border: 1px dashed black;
     background-color: yellow;
-    height: 2em;
+    height: 2em; */
     /* debug: */
     width: 100%;
     margin-top: 2em;
 }
+
+/* card section  */
 .plan-card-section{
-    /* background-color: green; */
-    border: 1px dashed blue;
-    height: 50em;
+    /* background-color: green;
+    border: 1px dashed blue; */
+    /* height: 50em; */
     /* debug: */
     margin-top: 2em;
 }
+
 .plan-card{
     /* background-color: red; */
     height: 100%;
@@ -190,7 +193,7 @@ nav{
     border: 1px solid lightgray;
 }
 .plan-card:nth-child(2){
-    margin: 0 calc(5% - 3px);
+    margin: 0 5%;
 }
 
     /* plan card  */
@@ -202,7 +205,7 @@ nav{
     /* debug: */
     display: inline-block;
     width: 100%;
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: center;
     border-bottom: 1px solid lightgray;
     padding: 0.5em 0;
@@ -211,34 +214,71 @@ nav{
 .plan-head i{
     font-weight: 500;
     display: inline-block;
-    font-size: 1em;
-
 }
         /* price  */
 
 .plan-price{
-    background-color: blue;
-    height: 4em;
+    /* background-color: blue; */
+    /* height: 4em; */
     /* debug: */
+    margin-left: 10px;
     margin-top: 2em;
 }
-
-.plan-summary{
-    background-color: aqua;
-    height: 6em;
-    /* debug: */
-    margin-top: 2em;
+.plan-price h3{
+    font-size: 1em;
 }
-.play-try{
-    background-color: yellow;
-    height: 4em;
-    /* debug: */
+.plan-price h4{
+    /* font-size: 0.8em; */
     margin-top: 1em;
 }
+    /* summary  */
 
-.plan-highlights{
-    background-color: pink;
-    height: 12em;
+.plan-summary{
+    /* background-color: aqua; */
+    /* height: 6em; */
     /* debug: */
     margin-top: 2em;
-}   
+    margin-left: 10px;
+}
+.plan-list{
+    list-style-type: none;
+}
+.plan-list li{
+    font-weight: 500;
+    margin-top: 1em;
+}
+.plan-list{
+    font-size: 0.75em;
+}
+    /* try button  */
+
+.plan-try{
+    /* background-color: yellow; */
+    /* height: 4em; */
+    /* debug: */
+    margin-left: 10px;
+}
+.plan-try div{
+    font-size: 0.6em;
+}
+.plan-try span{
+    display: inline-block;
+    /* line-height: 3em; */
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid lightgray;
+}
+.plan-try a:last-child{
+    color: #0061ff;
+}
+/* plan highlights  */
+
+.plan-highlights{
+    /* background-color: pink; */
+    /* height: 12em; */
+    /* debug: */
+    margin-top: 2em;
+    margin-left: 10px;
+}
+.plan-highlights i{
+    color: #0061ff;
+}
