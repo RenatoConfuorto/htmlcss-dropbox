@@ -66,7 +66,7 @@ header{
     line-height: 40px;
 }
 .logo img{
-    width: 70%;
+    width: 50%;
     height: auto;
     display: inline;
 }
@@ -99,6 +99,7 @@ nav{
 .nav-btn a{
     line-height: 40px;
     margin: 0 auto;
+    display: inline;
 }
 
 /* MAIN  */
@@ -149,45 +150,29 @@ nav{
 
 /* SUB PLAN  */
 .sub-plan{
-    /* border: 1px solid red;*/
-    margin-bottom: 50px;
-    /* debug: */
     margin-top: 8em;
 }
-.sub-plan .container{
-    /* background-color: aqua; */
-    /* debug: */
-}
+
 .sub-plan h2{
-    /* border: 1px dashed black;
-    background-color: pink; */
-    /* debug: */
     margin-top: 50px;
 }
 /* ren section  */
 .sub-plan .sub-ren{
-    /* border: 1px dashed black;
-    background-color: yellow;
-    height: 2em; */
-    /* debug: */
     width: 100%;
     margin-top: 2em;
+}
+.sub-plan label{
+    margin-right: 1em;
 }
 
 /* card section  */
 .plan-card-section{
-    /* background-color: green;
-    border: 1px dashed blue; */
-    /* height: 50em; */
-    /* debug: */
     margin-top: 2em;
 }
 
 .plan-card{
-    /* background-color: red; */
-    height: 100%;
-    /* debug: */
     width: 30%;
+    min-height: 800px;
     vertical-align: top;
     display: inline-block;
     border: 1px solid lightgray;
@@ -200,9 +185,6 @@ nav{
         /* head */
 
 .plan-head{
-    /* background-color: grey; */
-    /* height: 2em; */
-    /* debug: */
     display: inline-block;
     width: 100%;
     font-size: 0.7em;
@@ -218,9 +200,6 @@ nav{
         /* price  */
 
 .plan-price{
-    /* background-color: blue; */
-    /* height: 4em; */
-    /* debug: */
     margin-left: 10px;
     margin-top: 2em;
 }
@@ -228,42 +207,36 @@ nav{
     font-size: 1em;
 }
 .plan-price h4{
-    /* font-size: 0.8em; */
     margin-top: 1em;
+}
+.plan-price p{
+    font-size: 0.7em;
 }
     /* summary  */
 
 .plan-summary{
-    /* background-color: aqua; */
-    /* height: 6em; */
-    /* debug: */
     margin-top: 2em;
     margin-left: 10px;
 }
 .plan-list{
     list-style-type: none;
+    font-size: 0.75em;
+    margin: 0 10px 50px 10px;
 }
 .plan-list li{
     font-weight: 500;
     margin-top: 1em;
 }
-.plan-list{
-    font-size: 0.75em;
-}
     /* try button  */
 
 .plan-try{
-    /* background-color: yellow; */
-    /* height: 4em; */
-    /* debug: */
-    margin-left: 10px;
+    margin: 0 10px;
 }
 .plan-try div{
     font-size: 0.6em;
 }
 .plan-try span{
     display: inline-block;
-    /* line-height: 3em; */
     padding-bottom: 1.5em;
     border-bottom: 1px solid lightgray;
 }
@@ -273,12 +246,40 @@ nav{
 /* plan highlights  */
 
 .plan-highlights{
-    /* background-color: pink; */
-    /* height: 12em; */
-    /* debug: */
     margin-top: 2em;
     margin-left: 10px;
 }
 .plan-highlights i{
     color: #0061ff;
+}
+/*ENTERPRISE*/
+.enterprise{
+    border: 1px solid lightgrey;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+.enterprise-col-left{
+    width: 62%;
+    padding-left: 3%;
+}
+.enterprise h3{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+.enterprise-col-left h4{
+    font-size: 0.6em;
+    margin-top: 1em;
+}
+.enterprise p{
+    font-size: 0.6em;
+    margin-top: 2em;
+}
+.enterprise-col-right{
+    width: 35%;
+    padding-right: 3%;
+}
+.enterprise a{
+    width: 100%;
+    margin-right: auto;
+    text-align: center;
 }
