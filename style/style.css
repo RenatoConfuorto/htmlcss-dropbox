@@ -429,11 +429,7 @@ nav{
 }
 /* try section  */
 .try{
-    /* border: 1px solid black; */
-    /* height: 10em; */
-    margin-bottom: 50px;
-    /* debug: */
-    padding: 2em 0;
+    padding: 2em 1em;
     position: relative;
     background-color: #b4d0e7;
 }
@@ -441,11 +437,31 @@ nav{
     font-size: 0.7em;
 }
 .try-elements .col:first-child{
-    /* background-color: gold; */
-    /* debug: */
     width: 50%;
 }
-.col:last-child{
-    /* background-color: blue; */
-    /* debug: */
+
+/* FAQ */
+.faq{
+    margin-top: 3em;
+}
+.faq h2{
+    font-size: 1em;
+}
+.faq-list{
+    list-style-type: none;
+    margin-top: 1.5em;
+}
+.faq-list li{
+    font-size: 0.7em;
+    font-weight: bolder;
+    line-height: 3em;
+}
+.answer{
+    display: none;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+.faq-list li:hover .answer{
+    display: block;
 }
