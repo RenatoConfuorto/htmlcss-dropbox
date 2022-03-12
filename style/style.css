@@ -313,32 +313,17 @@ nav{
 }
 /* Business features */
 .features{
-    /* background-color: green; */
-    /* height: 30em; */
-    /* margin-bottom: 50px; */
-    /* debug: */
     margin-top: 3em;
 }
 .features h2{
-    /* background-color: blue; */
-    /* margin-top: 50px; */
-    /* debug: */
     font-size: 1.2em;
 }
 /* features card  */
 .row{
-    /* height: 10em; */
-    /* background-color: orange; */
-    /* debug: */
     margin-top: 2em;
 }
 .f-card{
-    /* background-color: pink;
-    border: 1px solid black; */
-    /* height: 100%; */
-    /* debug: */
     width: calc(100% / 3);
-    /* padding-right: 2em; */
 }
 .row > .f-card:first-child{
     padding-right: 2em;
@@ -364,17 +349,7 @@ nav{
 
 /* TEAMS */
 .teams{
-    /* background-color: blue;
-    border: 1px solid black;
-    height: 50em; */
-    margin-bottom: 50px;
-    /* debug: */
     margin-top: 50px;
-}
-.teams-head{
-    /* background-color: green;
-    border: 1px solid blue; */
-    /* debug: */
 }
 .teams-head div{
     width: 70%;
@@ -390,43 +365,20 @@ nav{
 }
 /* teams img  */
 .teams-img{
-    /* background-color: red;
-    width: 100%; */
-    /* height: 20em; */
-    /* debug: */
     margin-top: 2em;
 }
-.col{
-    /* background-color: violet; */
-    /* width: 25vw;
-    height: 25vw; */
-    /* debug: */
-}
 .col-middle{
-    /* background-color: darkmagenta; */
-    /* debug: */
     width: calc(100% - 60vw);
     height: 30vw;
     overflow: auto;
     padding: 1.5em;
 }
-.col-row{
-    /* background-color: aqua; */
-    /* width: 100%;
-    height: 50%; */
-    /* debug: */
-}
 .cell{
-    /* border: 1px dashed black; */
-    /* debug: */
     height: 15vw;
     width: 15vw;
     position: relative;
-    /* text-align: center;
-    vertical-align: middle; */
 }
 .cell img{
-    /* display: inline-block; */
     width: 60%;
     height: auto;
     filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(17deg) brightness(102%) contrast(105%);
@@ -474,4 +426,26 @@ nav{
 .col-middle p{
     margin-top: 1.5em;
     font-size: 0.8em;
+}
+/* try section  */
+.try{
+    /* border: 1px solid black; */
+    /* height: 10em; */
+    margin-bottom: 50px;
+    /* debug: */
+    padding: 2em 0;
+    position: relative;
+    background-color: #b4d0e7;
+}
+.try a{
+    font-size: 0.7em;
+}
+.try-elements .col:first-child{
+    /* background-color: gold; */
+    /* debug: */
+    width: 50%;
+}
+.col:last-child{
+    /* background-color: blue; */
+    /* debug: */
 }
