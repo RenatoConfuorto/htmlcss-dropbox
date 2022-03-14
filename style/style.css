@@ -62,7 +62,6 @@ header{
     background-color: white;
     position: fixed;
     z-index: 100;
-    overflow: hidden;
 }
 /* logo  */
 .logo{
@@ -83,18 +82,40 @@ nav{
 .nav-list{
     list-style-type: none;
 }
-.nav-list li{
-    display: inline-block;
+.sub-menu{
+    width: 10em;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    display: none;
+    background-color: white;
 }
-.nav-list a{
+.nav-list li:hover .sub-menu{
+    display: block;
+}
+.sub-menu a{
+    font-size: 0.8em;
+    color: inherit;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+.nav-list>li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
     line-height: 38px;
+}
+.nav-list>li>a{
+    display: inline-block;
     font-size: 0.8em;
     padding: 0 1em;
     text-decoration: none;
     color: black;
 }
-.nav-list a:hover{
-    border-bottom: 2px solid #0061ff;
+.nav-list>li>a:hover{
+    border-bottom: 2px solid lightgrey;
 }
 /* send btn  */
 .nav-btn{
